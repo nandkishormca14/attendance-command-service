@@ -65,17 +65,7 @@
 						</exclude>
 					</excludes>
 				</configuration>
-			</plugin>
-			<plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <configuration>
-                <excludes>
-                    <exclude>com/sapientapp/attendance/**</exclude>
-                    <!-- Add more excludes if needed -->
-                </excludes>
-            </configuration>
-        </plugin>
+			</plugin>			
 		</plugins>
 		<finalName>attendance-command-service</finalName>
 	</build>
